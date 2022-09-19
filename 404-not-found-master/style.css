@@ -1,0 +1,89 @@
+/* responsive mobile */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.flex-container{
+    font-family: 'Playfair Display', serif;
+    color: #4F4F4F;
+    display: flex;
+    flex-direction: column; 
+}
+.container{
+    margin: 0 0 0 5%;
+}
+.Erro{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #333333;
+
+}
+.Scarecrow{
+    width: 70%;    
+    inline-size: -webkit-fill-available;
+}
+.title{
+
+    font-family: 'Space Mono', monospace;  
+    font-size: 2.9em;
+    font-style: normal;
+    font-weight: 700;
+    color: #333333;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+
+}
+.text{
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.035em;
+    margin-right: 19%;
+    margin-bottom: 18%; 
+}
+
+.button{
+    width: 54%;
+    padding: 20px;
+    font-weight: 700;
+    background-color: #333333;
+    color: #ffff;
+    line-height: 20px;
+    border: none;
+    margin-bottom: 20%; 
+
+    
+}
+.text1{
+    width: 80%;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 0.70em;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+@media (min-width: 785px) {
+    .flex-container{
+        flex-direction: row; 
+    }
+    .container{
+        margin: 2% 4% 0 4%;
+    }
+
+    .Scarecrow{
+        width: 74%;
+        padding: 0 0 0 0%;
+        align-self: center;
+    }
+    .title{
+        padding: 20% 0 0 0 ;
+    }
+
+    .text1{
+        width: 70%;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 0.70em;
+        text-align: center;
+        color: #BDBDBD;
+    }
+  }
